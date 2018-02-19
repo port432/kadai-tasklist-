@@ -1,4 +1,4 @@
-class MessagesController < ApplicationController
+class TasksController < ApplicationController
   def index
     @tasks = Task.all
   end
